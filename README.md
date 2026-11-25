@@ -57,23 +57,14 @@ Local API: <http://127.0.0.1:8000/>
 ## Endpoints
  
 | Function | Method | Endpoint |
-
 |---|---|---|
-
 | Register | POST | `/api/users/register/` |
-
 | Login | POST | `/api/users/login/` |
-
 | List/create projects | GET/POST | `/api/projects/` |
-
 | List/add members | GET/POST | `/api/projects/<project_id>/members/` |
-
 | Remove member (owner) | DELETE | `/api/projects/<project_id>/members/<user_id>/` |
-
 | List/create tasks | GET/POST | `/api/projects/tasks/` |
-
 | Retrieve/update/delete task | GET/PUT/PATCH/DELETE | `/api/projects/tasks/<task_id>/` |
- 
 Protected requests use the header `Authorization: Token <token>`. See [API_REFERENCE.md](API_REFERENCE.md) for examples.
  
 ## Documentation
